@@ -1,0 +1,83 @@
+/* ct-4.css */
+
+.task4 {
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .task4 h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .task4 table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .task4 table th,
+  .task4 table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .task4 table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  /* Adjust the dimensions of the profile picture */
+  .task4 table td.profile-pic img {
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+  }
+  
+  /* Center the profile picture */
+  .task4 table td.profile-pic img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .task4 table td img.profile-icon {
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+  }
+  
+  /* Center the profile picture */
+  .task4 table td img.profile-icon {
+    display: block;
+    margin: 0 auto;
+  }
+  .task4 {
+    max-width: 100%;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 4px solid #ddd; /* Adjust the border thickness here */
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .profile-icon {
+    width: 24px; /* Adjust the width as needed */
+    height: 24px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+  
